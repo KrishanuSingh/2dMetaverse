@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
+//main router 
 
 
 const mainRouter = require('./Routes/authUser')
