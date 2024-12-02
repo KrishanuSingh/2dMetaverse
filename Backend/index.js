@@ -9,7 +9,7 @@ app.use(express.json());
 //main router 
 
 
-const mainRouter = require('./Routes/authUser')
+const mainRouter = require('./Routes/index')
 
 
 app.use("/api/v1" , mainRouter);
